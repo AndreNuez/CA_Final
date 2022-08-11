@@ -59,10 +59,6 @@ void Scores::MostrarPuntajes()
     cargarVector(vPuntajes, cantReg);
     ordenarVector(vPuntajes, cantReg);
 
-    for (int i = 0; i < cantReg; i++) {
-        std::cout << vPuntajes[i].getPuntos() << std::endl;
-    }
-
     int cantRegMostrar = 2;
     int punto1=0, punto2=0;
 
